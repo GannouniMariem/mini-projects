@@ -71,3 +71,36 @@ body{
     width: 100% !important;
 }
 }
+
+/*my to do list*/
+
+.cards{
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.Backlog{
+    background-color: #FAA929;
+}
+
+.inprogress{
+    background-color: #5932EA;
+}
+
+.Complete{
+    background-color: #2A874B;
+}
+.hold{
+    background-color: #FF1761;
+}
+.task{
+    background-color: rgba(10, 11, 101,8%);
+    color: #0A0B65;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 12px;
+}
