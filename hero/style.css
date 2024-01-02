@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(252,252,255,1), rgba(225,224,255,1));
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #00024F; 
+    background-image: -webkit-linear-gradient(315deg, #00024F 9%, #504BFF 60%, #FF1761 100%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;  
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #00024F; 
+}
+
+
+@media (max-width: 992px) { 
+    
+    .header{
+        margin:20px 0;
+        padding: 0;
+    }
+}
+
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 22px -3px rgba(0,0,0,.09);
+
+    color: #00024F;
+}
+
+.header__right-side{
+ display: flex;
+}
+
+.header__left-side p {
+    cursor: pointer;
+}
+.header__left-side .logo{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.header__right-side .active{
+    position: relative;
+    cursor: pointer;
+}
+
+.header__right-side .active::after{
+    content:'';
+    width: 105%;
+    height:4.5px;
+    position: absolute;
+    bottom: 3px; 
+    left: 0;
+    border-radius: 10px;
+    background-color: #4E25FF;
+    transition: all ease-in-out 0.2s;
+}
+
+.header__left-side p,
+.header__right-side p{
+    margin: 20px;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.btn-success{
+    background-color: #00AC4F;
+    border: none;
+}
+
+.btn-danger{
+    background-color: #FF6363;
+    border: none;
+}
+
+
+
+.card-list{
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    border: none;
+    box-shadow: 8px 10px 20px -5px rgba(0,0,0,0.1);
+}
+
+.card-desc-text{
+    color: #504BFF;
+}
